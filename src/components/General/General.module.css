@@ -1,0 +1,17 @@
+.TitleSection{
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    /* position: absolute; */
+    margin: 0;
+}
+.ButtonGeneric{
+    font-weight: 900;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(195, 43, 226, 0.927);
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.ProjectContainer{
+    padding: 10px;
+    margin: 10px;
+    max-width: 230px;
+    min-height: 480px;
+    border-radius: 25px;
+    /* background-color: rgba(104, 97, 97, 0.852); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition:  box-shadow 0.3s ease-in;
+    
+}
+
+.DescriptionProject{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+}
+
+.ProjectName{
+    font-family: "Archivo Narrow", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.ProjectContainer:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 5px rgba(151, 63, 245, 0.295);
+    transform: scale(1.03);
+    transition: .9s;
+
+}
+.ProjectContainer img{
+    object-fit: contain;
+    width: 30vw;
+    height: 40vh;
+}
+
+.ProjectsList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
