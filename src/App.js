@@ -1,14 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Header_Section from './components/Header/Header_Section'
+import HeaderSection from './Sections/Header/HeaderSection'
 import ProjectList from './Sections/Projects/ProjectsList';
 import AboutMe from './Sections/AboutMe/AboutMe';
+import Home from './Sections/Home/Home';
+import ArrowDownIcon from './components/ArrowDown';
 
 function App() {
   return (
   <div>
-    <Header_Section/>
+    <ArrowDownIcon/>
+    <HeaderSection/>
+    <Home/>
     <AboutMe/>
     <ProjectList/>
   </div>

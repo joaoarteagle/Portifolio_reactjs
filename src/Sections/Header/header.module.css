@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    height: 35px;
+    height: 50px;
     z-index: 9999;
     overflow: hidden;
     backdrop-filter: blur(5px);
@@ -32,12 +32,12 @@
       position: absolute;
       left: 0;
       bottom: 0;
-      height: 2px; /* Espessura do underline */
+      height: 1px; /* Espessura do underline */
       width: 100%;
       background-color:aliceblue; /* Cor do underline */
       transform: scaleX(0); /* Começa invisível */
       transform-origin: left; /* Origem do movimento */
-      transition: transform 0.5s ease; /* Transição suave */
+      transition: transform 1.0s ease; /* Transição suave */
 }
 
 .Option:hover::after{

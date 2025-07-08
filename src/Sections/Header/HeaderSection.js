@@ -1,9 +1,10 @@
-import Options_header from "./Options_header";
+import ThemeChanger from "../../components/themeChanger";
+import OptionsHeader from "./OptionsHeader";
 import styles from './header.module.css'
 import React, {useState, useEffect} from "react";
 
 
-function Header_Section(){
+function HeaderSection(){
     const [isSticky, setIsSticky] = useState(false);
 
     useEffect(() => {
@@ -24,15 +25,16 @@ function Header_Section(){
 
    return(
     <nav className={styles.sticky}>
-        <Options_header section={"Skills"}/>
-        <Options_header section={"About Me"}/>
-        <Options_header section={"Home"}/>
-        <Options_header section={"Projects"}/>
-        <Options_header section={"Contact"}/>
+        <OptionsHeader section={"Skills"}/>
+        <OptionsHeader section={"About Me"}/>
+        <OptionsHeader section={"Home"}/>
+        <OptionsHeader section={"Projects"}/>
+        <OptionsHeader section={"Contact"}/>
+        <ThemeChanger/>
     </nav>
 )};
 
 
-export default Header_Section;
+export default HeaderSection;
 
 

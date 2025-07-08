@@ -1,12 +1,13 @@
-import TitleSection from "../../components/General/TitleSection";
-import Button from "../../components/General/Button";
+import Button from "../../components/Button";
 import styles from "../Section.module.css"
 
 function AboutMe(){
     return(
         <section className={styles.Sections}>
-            <TitleSection text={"About me"}/>
-            <Button text={"Contact Me"}/>
+            <div>
+                <img className={styles.myPhoto} src="assets//img/myphoto.jpeg"/>
+                <p>Software Engineering student and Full-stack developer with knowledge in Java, Nodejs, ReactJs, NestJs.</p>
+            </div>
         </section>
     )
 }
