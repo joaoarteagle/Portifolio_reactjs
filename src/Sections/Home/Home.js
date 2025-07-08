@@ -12,6 +12,7 @@ function Home() {
         <img
           className={styles.home_coffee_image}
           src="assets//img/Coffee.png"
+          alt="coffeLogo"
         />
 
       </div>
