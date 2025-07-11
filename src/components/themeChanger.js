@@ -21,10 +21,10 @@ function ThemeChanger() {
   return(
     <div className={style.themeToggle}>
       <span>
-        <img src="assets//img/Sun.png" alt="Sun Icon"  />
+        <img src={`${process.env.PUBLIC_URL}/assets//img/Sun.png`} alt="Sun Icon"  />
       </span>
       <span>
-        <img src="assets//img/Moon.png" alt="Moon Icon"  />
+        <img src={`${process.env.PUBLIC_URL}/assets//img/Moon.png`} alt="Moon Icon"  />
       </span>
     </div>
   );

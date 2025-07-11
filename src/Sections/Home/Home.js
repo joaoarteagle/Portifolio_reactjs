@@ -11,7 +11,7 @@ function Home() {
         </div>
         <img
           className={styles.home_coffee_image}
-          src="assets//img/Coffee.png"
+          src={`${process.env.PUBLIC_URL}/assets/img/Coffee.png`}
           alt="coffeLogo"
         />
 
