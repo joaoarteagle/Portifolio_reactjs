@@ -25,11 +25,15 @@ function HeaderSection(){
 
    return(
     <nav className={`${styles.sticky} ${isSticky ? styles.stickyActive : ''}`}>
-        <OptionsHeader section={"Skills"}/>
-        <OptionsHeader section={"About Me"}/>
-        <OptionsHeader section={"Home"}/>
-        <OptionsHeader section={"Projects"}/>
-        <OptionsHeader section={"Contact"}/>
+
+        {/* {options.map((section, link, key)=>(
+          <OptionsHeader key={key} section={section} link={link}/>
+        ))} */}
+        <OptionsHeader section={"Skills"} link={"skillsSection"}/>
+        <OptionsHeader section={"About Me"} link={"aboutMeSection"}/>
+        <OptionsHeader section={"Home"} link={"homeSection"}/>
+        <OptionsHeader section={"Projects"} link={"projectsSection"}/>
+        <OptionsHeader section={"Contact"} link={"contactSection"}/>
         <ThemeChanger/>
     </nav>
 )};
