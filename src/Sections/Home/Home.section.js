@@ -1,9 +1,9 @@
 import SocialMidiaList from "../../components/socialMediaList";
-import styles from "../Section.module.css";
+import styles from "./Home.module.css"
 
-function Home(id) {
+export default function Home({id}) {
   return (
-    <section className={styles.Sections} id={id}>
+    <section id={id}>
       <div className={styles.home_container_items}>
         <div className={styles.home_title_container}>
           <h1>FULL-STACK DEVELOPER</h1> 
@@ -16,10 +16,9 @@ function Home(id) {
         />
 
       </div>
-
       <SocialMidiaList />
+
     </section>
   );
 }
 
-export default Home;

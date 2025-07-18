@@ -1,6 +1,8 @@
-.Sections{
-    margin: 150px 100px;
-    min-height: 100vh;
+#homeSection{
+   margin: 150px 0px 0px 100px;
+   width: 80vw;
+   align-items: baseline;
+   justify-content: flex-start;
 }
 
 .home_title_container{
@@ -55,10 +57,3 @@ h1{
   h1, p{
     color: azure;
   }
-  
-.myPhoto{
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 50%;
-}

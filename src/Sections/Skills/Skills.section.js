@@ -3,9 +3,9 @@ import styles from "./Skills.module.css"
 import SkillComponent from "./Skill.component";
 
 
-export default function SkillsSection(id){
+export default function SkillsSection({id}){
     return(
-        <section className={styles.Sections} id={id}>
+        <section id={id}>
 
          <div className={styles.skillsContainer}>   
             <SkillComponent skillName={"Designer"} 
