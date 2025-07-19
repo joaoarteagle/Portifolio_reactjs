@@ -5,7 +5,7 @@ import SkillComponent from "./Skill.component";
 
 export default function SkillsSection({id}){
     return(
-        <section id={id}>
+        <section id={id} className={"SectionBase"}>
 
          <div className={styles.skillsContainer}>   
             <SkillComponent skillName={"Designer"} 

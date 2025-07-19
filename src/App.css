@@ -14,12 +14,9 @@ section{
     justify-content: center;
     flex-direction: column;
     min-height: 80vh;
-    
-
 }
-
 #homeSection{
-   margin: 150px 0px 0px 100px;
+   margin: 150px 0px 0px 100px; 
    width: 80vw;
    align-items: baseline;
    justify-content: flex-start;
